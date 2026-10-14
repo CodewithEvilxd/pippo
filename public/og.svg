@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#ffe8cf"/>
+    </linearGradient>
+    <linearGradient id="fur" x2="0.2" y2="1">
+      <stop stop-color="#ffbd68"/>
+      <stop offset="1" stop-color="#f48245"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="40" fill="url(#paper)"/>
+  <circle cx="965" cy="320" r="220" fill="#ffd6a8" opacity=".55"/>
+  <text x="90" y="265" fill="#29211f" font-family="system-ui, sans-serif" font-size="112" font-weight="800" letter-spacing="-5">Pippo</text>
+  <text x="96" y="335" fill="#514744" font-family="system-ui, sans-serif" font-size="34">A tiny mascot for your page</text>
+  <text x="96" y="398" fill="#837671" font-family="system-ui, sans-serif" font-size="24">Follows your cursor · reacts when you click</text>
+  <g stroke="#38251f" stroke-width="11" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M822 227 834 105Q838 78 860 96L944 160M1050 160 1134 96Q1156 78 1160 105L1172 227" fill="url(#fur)"/>
+    <path d="m856 150 5-30 46 39M1138 150l-5-30-46 39" fill="#ffe5c8" stroke-width="7"/>
+    <path d="M805 294Q805 183 997 166Q1189 183 1189 294V407Q1189 500 997 511Q805 500 805 407Z" fill="url(#fur)"/>
+    <path d="M859 377Q859 326 914 326Q969 326 969 377Q969 428 914 428Q859 428 859 377ZM1025 377Q1025 326 1080 326Q1135 326 1135 377Q1135 428 1080 428Q1025 428 1025 377Z" fill="#fffaf2" stroke-width="7"/>
+    <ellipse cx="920" cy="382" rx="25" ry="36" fill="#38251f" stroke="none"/>
+    <ellipse cx="1074" cy="382" rx="25" ry="36" fill="#38251f" stroke="none"/>
+    <circle cx="929" cy="367" r="8" fill="white" stroke="none"/>
+    <circle cx="1083" cy="367" r="8" fill="white" stroke="none"/>
+    <path d="M980 437Q997 424 1014 437Q1014 455 997 458Q980 455 980 437Z" fill="#38251f" stroke-width="5"/>
+    <path d="M997 458Q997 485 970 482M997 458Q997 485 1024 482" fill="none" stroke-width="7"/>
+  </g>
+  <ellipse cx="859" cy="435" rx="22" ry="12" fill="#ff9a82" opacity=".75"/>
+  <ellipse cx="1135" cy="435" rx="22" ry="12" fill="#ff9a82" opacity=".75"/>
+</svg>
