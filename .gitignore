@@ -1,5 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production & Build Outputs
+dist/
+dist-ssr/
+site-build/
+*.tgz
+
+# Environment & Credentials (Protect API keys like OPENAI_API_KEY)
+.env
+.env.*
+!.env.example
+*.local
+
+# Cache & Temp Build Files
+.vite/
+*.tsbuildinfo
+
+# Cloudflare Wrangler
+.wrangler/
+
+# Python (Sprite build & generation pipeline)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+chrome_cdp_profile_*
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,23 +48,26 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-site-build
-dist-ssr
-*.local
-
-# Editor directories and files
+# Editor Directories & Files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*~
 
-*.tgz
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
 
-__pycache__/
